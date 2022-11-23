@@ -7,6 +7,7 @@ const nameSlice = createSlice({
     },
     reducers: {
         updateName: (state, action) => {
+            // using action.payload for dynamic onChange name value
             state.name = action.payload
         }
     }
